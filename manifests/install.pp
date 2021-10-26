@@ -9,10 +9,11 @@ class dockctl::install () inherits dockctl {
 
   if $dockctl::manage {
     vcsrepo { $dockctl::install_directory:
-      ensure   => $dockctl::ensure,
+      ensure   => $dockctl::repo_ensure,
       provider => git,
       source   => $dockctl::repo_source,
       revision => $dockctl::repo_revision,
+      require  => Package['git'],
     }
     -> file { '/usr/local/bin/dockctl':
       ensure => $link_ensure,

@@ -19,7 +19,7 @@ describe 'dockctl' do
 
         it {
           is_expected.to contain_vcsrepo('/opt/dockctl').with(
-            ensure: 'present',
+            ensure: 'latest',
             provider: 'git',
             source: 'https://github.com/rehanone/dockctl.git',
             revision: 'master',
@@ -39,6 +39,7 @@ describe 'dockctl' do
           {
             manage: true,
             ensure: 'absent',
+            repo_ensure: 'absent',
           }
         end
 
