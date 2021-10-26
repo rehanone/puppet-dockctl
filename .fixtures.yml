@@ -1,0 +1,8 @@
+fixtures:
+  forge_modules:
+    stdlib:
+      repo: "puppetlabs/stdlib"
+    vcsrepo:
+      repo: "puppetlabs/vcsrepo"
+  symlinks:
+    dockctl: "#{source_dir}"
