@@ -1,0 +1,10 @@
+---
+dockctl::git_package: 'git'
+dockctl::git_manage: true
+dockctl::manage: true
+dockctl::ensure: 'present'
+dockctl::repo_source: 'https://github.com/rehanone/dockctl.git'
+dockctl::repo_revision: 'master'
+
+dockctl::install_directory: '/opt/dockctl'
+dockctl::home_directory: '/var/lib/dockctl'
