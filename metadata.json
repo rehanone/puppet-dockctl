@@ -1,6 +1,6 @@
 {
   "name": "rehan-dockctl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Rehan Mahmood",
   "summary": "Install, manage and configure docker/docker-compose management tool dockctl from Github",
   "license": "Apache-2.0",
