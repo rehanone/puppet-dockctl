@@ -1,3 +1,11 @@
+## 0.0.4 (December 7, 2022)
+
+**Improvements:**
+
+- Updated os support matrix.
+- Updated `pdk` templates.
+- Minimum supported version of `puppet` is raised to `6.0.0`.
+
 ## 0.0.3 (July 17, 2022)
 
 **Improvements:**
