@@ -1,5 +1,4 @@
 class dockctl::install () inherits dockctl {
-
   assert_private("Use of private class ${name} by ${caller_module_name}")
 
   $link_ensure = $dockctl::ensure ? {
