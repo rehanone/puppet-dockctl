@@ -11,7 +11,6 @@ class dockctl (
   Stdlib::Absolutepath  $install_directory,
   Stdlib::Absolutepath  $home_directory,
 ) {
-
   anchor { "${module_name}::begin": }
   -> class { "${module_name}::dependencies": }
   -> class { "${module_name}::config": }

@@ -27,12 +27,6 @@
       ]
     },
     {
-      "operatingsystem": "Rocky",
-      "operatingsystemrelease": [
-        "8"
-      ]
-    },
-    {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
         "6",
@@ -41,40 +35,26 @@
       ]
     },
     {
-      "operatingsystem": "OracleLinux",
-      "operatingsystemrelease": [
-        "6",
-        "7",
-        "8"
-      ]
+      "operatingsystem": "OracleLinux"
     },
     {
-      "operatingsystem": "Scientific",
-      "operatingsystemrelease": [
-        "6",
-        "7",
-        "8"
-      ]
+      "operatingsystem": "Scientific"
     },
     {
-      "operatingsystem": "Fedora",
-      "operatingsystemrelease": [
-        "32",
-        "33",
-        "34"
-      ]
+      "operatingsystem": "Fedora"
     },
     {
-      "operatingsystem": "SLES",
-      "operatingsystemrelease": [
-        "12",
-        "15"
-      ]
+      "operatingsystem": "Rocky"
+    },
+    {
+      "operatingsystem": "AlmaLinux"
+    },
+    {
+      "operatingsystem": "SLES"
     },
     {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
-        "8",
         "9",
         "10",
         "11"
@@ -85,8 +65,15 @@
       "operatingsystemrelease": [
         "16.04",
         "18.04",
-        "20.04"
+        "20.04",
+        "22.04"
       ]
+    },
+    {
+      "operatingsystem": "FreeBSD"
+    },
+    {
+      "operatingsystem": "DragonFly"
     },
     {
       "operatingsystem": "ArchLinux"
@@ -95,7 +82,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 5.5.10 < 8.0.0"
+      "version_requirement": ">= 6.0.0 < 8.0.0"
     }
   ],
   "tags": [
@@ -104,7 +91,7 @@
     "compose",
     "container management"
   ],
-  "pdk-version": "2.4.0",
-  "template-url": "pdk-default#2.4.0",
-  "template-ref": "tags/2.4.0-0-gfa6b6d2"
+  "pdk-version": "2.5.0",
+  "template-url": "pdk-default#2.5.0",
+  "template-ref": "tags/2.5.0-0-g369d483"
 }
